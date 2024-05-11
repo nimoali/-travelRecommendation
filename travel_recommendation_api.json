@@ -1,0 +1,37 @@
+{
+    "recommendations": [
+      {
+        "id": 1,
+        "name": "Australia",
+        "cities": [
+          {
+            "name": "Sydney, Australia",
+            "imageUrl": "https://img.freepik.com/free-photo/manhattan-downtown-architecture-night-view_649448-220.jpg?t=st=1715361690~exp=1715365290~hmac=c00ae4c6758256669db4bd513d3420979534b848b018855ccae117105377dea6&w=740",
+            "description": "A vibrant city known for its iconic landmarks like the Sydney Opera House."
+          },
+          {
+            "name": "Melbourne, Australia",
+            "imageUrl": "https://img.freepik.com/free-photo/rainbow-bridge-tokyo-city-japan_74190-5050.jpg?t=st=1715418735~exp=1715422335~hmac=4174a0b206ea50f166053908975f560054bcbad29d2f416c6be2a61d75f09d22&w=740",
+            "description": "A cultural hub with diverse arts and culinary scenes."
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Japan",
+        "cities": [
+          {
+            "name": "Tokyo, Japan",
+            "imageUrl": "https://img.freepik.com/free-photo/urban-landscape-city-japan_23-2148889522.jpg?t=st=1715418967~exp=1715422567~hmac=b2eeb20912056eb917c1927f80faae18845c5b53602bb50bfcfccf89e58da433&w=740",
+            "description": "A bustling metropolis known for its cutting-edge technology and vibrant street life."
+          },
+          {
+            "name": "Kyoto, Japan",
+            "imageUrl": "https://img.freepik.com/free-photo/ginkakuji-temple_74190-1099.jpg?t=st=1715418900~exp=1715422500~hmac=58123ddc430b953d04a3c173477f97898bdafec116d2e03f6e10350412c6f81f&w=740",
+            "description": "A historic city with beautiful temples, gardens, and traditional tea houses."
+          }
+        ]
+      }
+    ]
+  }
+  

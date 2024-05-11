@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filtered Recommendations</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div>
+        <nav class="flex gap-10 bg-black text-white justify-between px-10">
+            <div>
+                <i class="fas fa-globe"></i>
+                <h1 class="text-3xl font-bold">TravelBloom</h1>
+            </div>
+            <ul class="flex gap-10 position">
+                <li>Home</li>
+                <li>About Us<a href="./Aboutus.html">About Us</a></li>
+                <li>Contact Us<a href="./Contactus.html">Contact Us</a></li>
+            </ul>
+        
+            <div>
+                <div class="bg-white rounded-full w-full  mr-3 flex gap-3 justify-between px-10">
+                    <input type="text" id="searchInput" placeholder="Enter a destination or keyword" class="text-green-700">
+                    <i class="fas fa-search text-xl text-green-400"></i>
+                    <button class="bg-green-500 rounded-xl px-8 py-2" id="searchInput">Search</button>
+                    <button class="bg-green-500 rounded-xl px-8 py-2" id="clearButton">Clear</button>
+                </div>
+            </div>
+    
+            <div>
+                </div></nav>
+
+
+
+<div class="w-[100%]  px-10 h-[799px] bg-no-repeat bg-cover bg-[url('https://img.freepik.com/free-photo/new-york-city-with-manhattan-skyline-hudson-river_268835-776.jpg?t=st=1715098135~exp=1715101735~hmac=7e0ad8397566abaf573db1a458e1badf320c3114eb02f718943985c54e388be5&w=740')]">
+    <h1 class="w-[90px] text-9xl pt-10">explor dream destination</h1>
+    <p class="w-[30%] text-xl mt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, dignissimos impedit. Amet voluptate delectus consequuntur? In, placeat. Ullam, numquam eum?</p>
+    <button class="bg-blue-800 px-8 py-2 rounded mt-10">Book Now</button>
+</div>
+
+<div id="recommendations">
+    <!-- Recommendations will be displayed here -->
+</div>
+
+<div>
+    
+</div>
+
+<script src="travel_recommendation.js"></script>
+
+</body>
+</html>
